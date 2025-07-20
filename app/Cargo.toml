@@ -1,0 +1,12 @@
+[package]
+name = "pay-proc"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [".", "server"]
+
+[dependencies]
+server = { path = "server" }
+actix-web = "4"
+snmalloc-rs = "0.3.4"
